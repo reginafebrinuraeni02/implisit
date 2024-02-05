@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="profile">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="100dp"
+        android:text="rginaaja_"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FFFFFF" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="88dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="140dp"
+        app:srcCompat="@drawable/yeye" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="230dp"
+        android:text="Regina Febri N."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FCFEFF" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="160dp"
+        android:text="Posts"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FDFEFF" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="160dp"
+        android:text="Followers"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FCFEFF"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="305dp"
+        android:layout_marginTop="160dp"
+        android:text="Following"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FCFEFF" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="140dp"
+        android:text="0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FCFEFF" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="248dp"
+        android:layout_marginTop="140dp"
+        android:text="500"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FCFEFF" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="325dp"
+        android:layout_marginTop="140dp"
+        android:text="300"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FCFEFF" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="190dp"
+        android:text="Follow" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="23dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="100dp"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="650dp"/>
+
+</FrameLayout>
